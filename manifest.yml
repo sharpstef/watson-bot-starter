@@ -1,0 +1,9 @@
+applications:
+- host: botstarter
+  disk: 512M
+  name: botstarter
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  memory: 512M
+  instances: 1
