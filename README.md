@@ -42,8 +42,13 @@ Basic chat bot dialog for working with the [Watson Conversation](https://www.ibm
       version: 'v1'
   });
   ```
+
+8. Once you have a workspace/conversation created, update your Workspace ID:
+   ```
+   var workspace = 'WORKSPACE_ID'; // Set to your Conversation workspace ID
+   ```
   
-8. Push the app to Bluemix.
+9. Push the app to Bluemix.
 
   ```
   $ cf push
@@ -75,8 +80,13 @@ Basic chat bot dialog for working with the [Watson Conversation](https://www.ibm
       version: 'v1'
   });
   ```
+  
+7. Once you have a workspace/conversation created, update your Workspace ID:
+   ```
+   var workspace = 'WORKSPACE_ID'; // Set to your Conversation workspace ID
+   ```
 
-7. Start your app locally with the following commands
+8. Start your app locally with the following commands
 
   ```
   npm install
