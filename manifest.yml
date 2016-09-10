@@ -1,5 +1,7 @@
 applications:
-- host: botstarter
+  - services:
+    - conversation-bot
+  host: botstarter
   disk: 512M
   name: botstarter
   command: node app.js
@@ -7,3 +9,7 @@ applications:
   domain: mybluemix.net
   memory: 512M
   instances: 1
+declared-services:
+  conversation-bot:
+    label: conversation
+    plan:  free
