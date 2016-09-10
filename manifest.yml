@@ -1,6 +1,6 @@
 applications:
-  - services:
-    - conversation-bot
+- services:
+  - conversation-bot
   host: botstarter
   disk: 512M
   name: botstarter
