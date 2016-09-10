@@ -1,6 +1,4 @@
-# ford-hack
-Hackathon for the 2016 Ford developer conference
+# watson-bot-starter
+Basic chat bot dialog for working with the [Watson Conversation](https://www.ibm.com/watson/developercloud/conversation.html) service on Bluemix. 
 
-API for ford sync3: https://developer.ford.com/pages/api-reference-ios
 
-Emulator guide: https://developer.ford.com/pages/tools-ios
