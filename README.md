@@ -5,7 +5,7 @@ Basic chat bot dialog for working with the [Watson Conversation](https://www.ibm
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/slkaczma/watson-bot-starter)
 
-![bot chat](bot.jpg)
+![bot chat](img/bot.jpg)
 
 ##Run the app on Bluemix
 1. If you do not already have a Bluemix account, [sign up here](https://console.ng.bluemix.net/registration/)
@@ -94,4 +94,20 @@ Basic chat bot dialog for working with the [Watson Conversation](https://www.ibm
   ```
   node app
   ```
+  
+##Start Creating Conversations
+ 1. Create an instance of the Watson Conversation service.
+    ![service tile](img/service.jpg)
+
+ 2. Copy the credential into app.js. See above.
+    ![service credentials](img/credentials.jpg)
+
+ 3. Click on the service tile. Open the service dashboard using the Launch button under the Manage tab.
+    ![launch service workspace](img/launch.jpg)
+
+ 4. Create a new workspace. Select the three dots and select View details to get the Workspace ID for your bot.
+    ![get the workspace id](img/workspace.jpg)
+
+ 5. Click on the newly created workspace to start creating intent, entities, and dialog. 
+    ![create dialog](img/building.jpg)
 
