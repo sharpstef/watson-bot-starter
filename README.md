@@ -116,4 +116,4 @@ Scroll to the bottom of this README for more information on working with Watson 
     ![create dialog](img/building.jpg)
 
  6. Always make sure to have a conversation_start condition as the first box in your dialog. 
-    ![conversation start](convostart.jpg)
+    ![conversation start](img/convostart.jpg)
