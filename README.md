@@ -7,7 +7,7 @@ Basic chat bot dialog for working with the [Watson Conversation](https://www.ibm
 
 Follow this [tutorial](https://www.ibm.com/watson/developercloud/doc/conversation/tutorial_basic.shtml) for learning about Intents, Entities, and Dialog. 
 
-Scroll to the bottom of this README for more information on working with Watson Conversation. 
+Scroll to the bottom of this README for more information on working with Watson Conversation. **You can import the example dialog from [lebot.json](lebot.json)**
 
 ![bot chat](img/bot.jpg)
 
