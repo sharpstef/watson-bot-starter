@@ -5,6 +5,10 @@ Basic chat bot dialog for working with the [Watson Conversation](https://www.ibm
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/slkaczma/watson-bot-starter)
 
+Follow this [tutorial](https://www.ibm.com/watson/developercloud/doc/conversation/tutorial_basic.shtml) for learning about Intents, Entities, and Dialog. 
+
+Scroll to the bottom of this README for more information on working with Watson Conversation. 
+
 ![bot chat](img/bot.jpg)
 
 ##Run the app on Bluemix
@@ -111,3 +115,5 @@ Basic chat bot dialog for working with the [Watson Conversation](https://www.ibm
  5. Click on the newly created workspace to start creating intent, entities, and dialog. 
     ![create dialog](img/building.jpg)
 
+ 6. Always make sure to have a conversation_start condition as the first box in your dialog. 
+    ![conversation start](convostart.jpg)
